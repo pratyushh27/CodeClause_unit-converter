@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url(	https://cdn.wallpapersafari.com/25/60/6qx9J7.png);
+    background-repeat: no-repeat;
+}
+#main{
+    border: 5px solid rgb(73, 113, 126);
+    padding: 50px 50px;
+    margin: 60px 380px;
+    display:block;
+    
+}
+h1 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: rgb(74 46 186);
+    font-weight: bold;
+    
+
+}
+.converter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.converter input {
+    background-color: rgb(239, 229, 218);
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 25px;
+    padding: 8px 15px;
+    border-top-left-radius: 5px;
+    border-color: rgb(51, 204, 0);
+    border-bottom-right-radius: 5px;
+}
+.converter input::placeholder{
+    padding: 20px 91px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.converter select {
+    width: 100%;
+    background-color: rgb(214, 238, 238);
+    max-width: 250px;
+    margin-bottom: 15px;
+    padding: 5px 20px;
+    border-radius: 12px;
+    cursor: grab;
+    border-style:dashed;
+    border-color: rgb(3, 91, 62);
+}
+.converter select:hover{
+    background-color: rgb(84, 255, 255);
+}
+.converter button {
+    padding: 10px 20px;
+    background-color: #352015;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px 15px;
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 40px;
+}
+.converter button:hover{
+    background-color: rgb(224, 108, 31);
+    border-radius: 10px;
+    color: rgb(17, 24, 15);
+}
+.result {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

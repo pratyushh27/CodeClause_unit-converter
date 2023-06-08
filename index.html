@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unit Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+   
+    <h1> <u> <i> Unit Converter </i> </u> </h1>
+    
+    <div class="converter">
+        <input type="number" id="inputValue" placeholder="Enter value">
+        <select id="fromUnit">
+            <option value="meters">Meters</option>
+            <option value="feet">Feet</option>
+            <option value="inches">Inches</option>
+            <option value="kilogram">Kilogram</option>
+            <option value="gram">Gram</option>
+            <option value="milligram">milligram</option>
+            <!-- Add more units here -->
+        </select>
+        <select id="toUnit">
+            <option value="feet">Feet</option>
+            <option value="meters">Meters</option>
+            <option value="inches">Inches</option>
+            <option value="kilogram">Kilogram</option>
+            <option value="gram">Gram</option>
+            <option value="milligram">milligram</option>
+
+            <!-- Add more units here -->
+        </select>
+        <button onclick="convert()">Convert</button> 
+        <button onclick="reset()"> Reset</button>
+    </div>
+    
+    <div class="result" id="result"></div>
+    </div>
+     <script src="script.js" ></script>
+</body>
+</html>
